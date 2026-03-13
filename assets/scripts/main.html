@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h2>Welcome, <span id="user-name"></span></h2>
+        <p>Choose an option below:</p>
+
+        <!-- Button to interact with the Python executable -->
+        <button id="download-btn">Download Game</button>
+        <button id="comment-btn">Comment on Game</button>
+
+        <!-- Comment Section -->
+        <div id="comment-section" style="display:none;">
+            <h3>Leave a comment</h3>
+            <textarea id="comment" placeholder="Type your comment here..."></textarea>
+            <button id="submit-comment">Submit</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
